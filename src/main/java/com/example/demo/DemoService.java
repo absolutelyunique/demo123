@@ -11,7 +11,7 @@ public class DemoService {
             System.out.println("The value of i is: "+i);
        }
 	   
-	   int j;
+	   int j = 2;
 		while (true) { // Noncompliant; end condition omitted
 		  j++;
 		}
